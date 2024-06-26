@@ -1,6 +1,5 @@
-// scripts.js
-
-document.getElementById('contact-form').addEventListener('submit', function(event) {
+// newfile.js
+document.getElementById('contact-form').addEventListener('submit', function (event) {
     event.preventDefault();
 
     let name = event.target.name.value;
@@ -21,7 +20,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     alert('Message sent successfully!');
     // You can add code here to send the form data to a server
-
     // Reset the form after submission
     event.target.reset();
 });
