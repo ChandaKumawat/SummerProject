@@ -1,0 +1,22 @@
+#projects img {
+    width: 100%;
+    height: auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+}
+
+.pulse {
+    animation: pulse 1s;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
